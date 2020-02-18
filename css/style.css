@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    box-sizing: border-box; 
+}
+section{
+    /* position: relative; */
+    width: 100%;
+    min-height: 100vh;
+    background: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .content{
+    position: relative;
+    padding: 100px 50px 100px 150px;
+    box-sizing: border-box;
+    animation: left-in 0.5s ease-in forwards;
+    animation-delay:  0.5s;
+    opacity: 0;
+}
+section .content h2{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 800;
+}
+section .content p{
+    color:#fff;
+    font-size: 1.2em;
+}
+section .content a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top:20px;
+    background:green;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+@media (max-width:991px)
+{
+
+    section{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    section::before{
+        
+        clip-path: polygon(0 0, 100% 0, 100% 10%, 0 26%);
+       
+    }
+    section .content{
+        padding:50px;
+        margin-bottom: 30px;
+    }
+    section .content h2{
+        font-size: 1.5em;
+    }
+    section .content p{
+        font-size: 1em;
+    }
+    section .content a{
+        font-size: 0.8em;
+        padding:10px;
+    }
+    section .imgBx{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+        margin-top: 20px;
+    }
+    section .imgBx img{
+        max-width: 300px;
+    }
+}

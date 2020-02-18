@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    box-sizing: border-box; 
+}
+body{
+    background: #222;
+}
+.ctpsp{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 30px;
+    padding: 10px;
+}
+hr{
+    border-bottom: green 2px solid;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+.lyrics{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: #fff;
+    padding: 50px;
+    font-size: 25px;
+    z-index: 0;
+}
+.m-b{
+    margin-bottom: 20px;
+    display: block;
+    z-index: 0;
+}
+.container-naat{
+    display: flex;
+    justify-content: space-between;
+}
+.vid{
+    margin-top: 60%;
+display: inline-block;
+margin-right: 5%;
+    z-index: 1;
+}
+
+.aud{
+    position: absolute;
+    top: 60%;
+    right: 15%;
+    z-index: 1;
+border-left: 2px solid green;
+padding: 20px;
+}
+.aud h4{
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.aud audio{
+    outline: none;
+    /* display: block; */
+    margin: 50px 0 ;
+    width: 480px;
+}
+.aud button{
+padding: 15px 30px ;
+background: green;
+/* margin-top: -10%; */
+display: block;
+border: none;
+font: 500;
+color: #fff;
+font-size: 20px;
+margin-top: 10px;
+}
+.aud a{
+    text-decoration:none;
+
+}

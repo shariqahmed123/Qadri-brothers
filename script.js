@@ -4,3 +4,12 @@ function menuToggle(){
     let toggle = document.getElementById('toggle');
     toggle.classList.toggle('active');
 }
+
+
+$('.fade').slick({
+ 
+  infinite: true,
+  speed: 200,
+  fade: true,
+  cssEase: 'linear'
+});
