@@ -40,7 +40,7 @@ hr{
     justify-content: space-between;
 }
 .vid{
-    margin-top: 60%;
+    margin-top: 55%;
 display: inline-block;
 margin-right: 1%;
     z-index: 1;
@@ -76,8 +76,12 @@ font: 500;
 color: #fff;
 font-size: 20px;
 margin-top: 10px;
+cursor: pointer;
+transition: .5s;
 }
 .aud a{
     text-decoration:none;
-
+}
+.aud button:hover{
+    background: rgb(0, 97, 0);
 }
