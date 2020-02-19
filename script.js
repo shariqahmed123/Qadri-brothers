@@ -6,10 +6,8 @@ function menuToggle(){
 }
 
 
-$('.fade').slick({
- 
-  infinite: true,
-  speed: 200,
-  fade: true,
-  cssEase: 'linear'
-});
+let preloader = document.getElementById('loading');  
+function myFunction() {
+  preloader.style.display = 'none';
+}
+
